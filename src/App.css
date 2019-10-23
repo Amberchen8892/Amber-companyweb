@@ -1,22 +1,270 @@
-.App {
+body{
+  width: 100vw;
+  height: 100vh;
+  
+}
+.top-bar{
+  width:100%;
+  height: 250px;
+  position: relative;
+  background-color: rgb(15, 15, 15)
+}
+.dropdown-menu{
+  width: 55vw;
+  padding: 30px 20px;
+  z-index: 1000;
+  
+}
+
+#dropdown-menu-align-right:hover{
+  background-color: #0288d1
+}
+#dropdown-item-button:hover{
+  background-color: #0288d1
+}
+#dropdown-basic-button-1{
+  background-color: #0288d1 ;
+  border-color:#0288d1
+}
+.boxx{
   text-align: center;
+  
+  width:100%
 }
 
-.App-logo {
-  height: 40vmin;
+.fa-users{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-desktop{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-usd{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-car{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-wrench{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-gem{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+.fa-globe{
+    border: 1px solid #0288d1;
+    border-width: 20px;
+    border-radius: 50%;
+    background-color: #0288d1
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+  
+  }
+  /* .icon{
+    border: 1px solid grey;
+    display:flex;
+    justify-content: center;
+    
+    align-items: center;
+    width: 50px;
+    height:50px;
+
+    
+  } */
+  .circle {
+    border: 1px solid #cfd8dc;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    margin-right: 10px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+   margin-left: 10px;
+   margin-top: 5px;
+
+}
+.circle:hover{
+  background-color: #0d47a1;
+  border-color: #0d47a1;
+ 
+
+}
+.fa-facebook-f:hover{
+  color: white !important;
+}
+
+  .circle-a {
+    border: 1px solid #cfd8dc;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    margin-right: 10px
+}
+.circle-a:hover{
+  background-color: red;
+  border-color: red;
+
+}
+.fa-youtube:hover{
+  color: white !important
+}
+.circle-a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    display: block;
+   margin-left: 5px;
+   margin-top: 5px
+}
+.circle-b {
+  border: 1px solid #cfd8dc;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 100%;
+  margin-right: 10px
+}
+.circle-b i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  display: block;
+ margin-left: 5px;
+ margin-top: 5px
+}
+.circle-b:hover{
+  background-color: #f44336;
+  border-color: #f44336
+}
+.fa-google-plus-g:hover{
+  color: white !important
+}
+.carousel-caption{
+  padding-bottom: 150px;
+  text-align: left
+}
+.carousel-indicators .active{
+  background-color: #0288d1
+}
+@media screen and (max-width: 768px) {
+
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+  
+  }
+  @media screen and (min-width:961px){
+    #content-desktop {display: block;}
+  #content-mobile {display: none;}
+    
+  }
+  .boxes {
+    display: grid;
+    
+    grid-template-columns:  auto auto auto;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  }
+  
+  .box {
+    background: white;
+    color:black;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    
+  }
+ 
+.fa-chart-bar{
+  border: 1px solid #0288d1;
+  border-width: 20px;
+  border-radius: 50%;
+  background-color: #0288d1
+}
+.fa-money{
+  border: 1px solid #0288d1;
+  border-width: 20px;
+  border-radius: 50%;
+  background-color: #0288d1
+}
+.fa-tools{
+  border: 1px solid #0288d1;
+  border-width: 20px;
+  border-radius: 50%;
+  background-color: #0288d1
+}
+.fa-user-circle{
+  border: 1px solid #0288d1;
+  border-width: 20px;
+  border-radius: 50%;
+  background-color: #0288d1
+}
+.fa-hand-holding-usd{
+  border: 1px solid #0288d1;
+  border-width: 20px;
+  border-radius: 50%;
+  background-color: #0288d1
+}
+.home-carousel{
+  background-image: url('./test.jpg');
+  background-size: cover;
+  width:100%;
+  height:400px;
+
+}
+.login{
+  width:100vw;
+  height:100vh;
+  background-image: url('./crm-login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #09d3ac;
+.login-form{
+  width:30%;
+  height: 70%;
+  background-color: rgb(19, 174, 235, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
