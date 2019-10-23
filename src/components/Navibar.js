@@ -60,9 +60,9 @@ export default function Navibar() {
                                 <div className="login-button">
                                     <StyleNav>
                                <DropdownButton id="dropdown-basic-button-1" title={<span><i style={{padding:"8px"}}class="fas fa-lock"></i>Log in</span>}>
-  <Dropdown.Item href="http://localhost:3001" style={{display:"flex", height:"30px", alignItems:"center", marginBottom:"20px"}}><Button style={{width:"95%"}}variant="info">CRM <span style={{float:"right"}}><i class="fas fa-arrow-right"></i></span></Button> </Dropdown.Item>
+  <Dropdown.Item href="http://localhost:3000" style={{display:"flex", height:"30px", alignItems:"center", marginBottom:"20px"}}><Button style={{width:"95%"}}variant="info">CRM <span style={{float:"right"}}><i class="fas fa-arrow-right"></i></span></Button> </Dropdown.Item>
   <Dropdown.Item href="#/action-1" style={{display:"flex", height:"30px", alignItems:"center", marginBottom:"20px"}}><Button style={{width:"95%"}} variant="info">Inventory Plus<span style={{float:"right"}}><i class="fas fa-arrow-right"></i></span></Button></Dropdown.Item>
-  <Dropdown.Item href="http://localhost:3000" style={{display:"flex", height:"30px", alignItems:"center"}}><Button style={{width:"95%"}}variant="info">DealerFire <span style={{float:"right"}}><i class="fas fa-arrow-right"></i></span></Button></Dropdown.Item>
+  <Dropdown.Item href="https://amberdealer.netlify.com" style={{display:"flex", height:"30px", alignItems:"center"}}><Button style={{width:"95%"}}variant="info">DealerFire <span style={{float:"right"}}><i class="fas fa-arrow-right"></i></span></Button></Dropdown.Item>
   
 </DropdownButton>
 </StyleNav></div>
