@@ -1,5 +1,5 @@
 import React from 'react';
-import{Carousel, Button} from 'react-bootstrap';
+import{Carousel, Button, Row, Col} from 'react-bootstrap';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 
@@ -111,7 +111,7 @@ export default function Home() {
 </section>
 <section>
     <div style={{width:"100%", height:"400px", backgroundColor:"black", textAlign:"center",justifyContent:"center", display:"flex", flexDirection:"column", alignItems:"center"}}>
-        <h2 style={{fontSize:"40px", color:"#0091ea"}}>DEALERSOCKET RESOURCES</h2>
+        <h2 style={{fontSize:"40px", color:"#0091ea"}}>AMBER RESOURCES</h2>
         <h4 style={{fontSize:"20px", color:"white"}}>Case studies, white papers, infographics, press releases, articles, and more</h4>
         <p style={{fontSize:"16px", color:"#0091ea"}}>Access best practices and expert advice to improve your dealership</p>
         <Button variant="info"><span><i class="far fa-copy"></i></span>Load Resoucres</Button>
@@ -197,6 +197,64 @@ export default function Home() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+<div>
+<div style={{paddingLeft:"30px", paddingRight:"50px", textAlign:"center", marginTop:"30px", marginBottom:"50px"}}>
+        <h2>MISSION/ VISION STATEMENT</h2>
+        <p>To Drive the Future of Automotive by Simplifying the Experience for our Customers and Partners with a Suite of Seamlessly Integrated Products</p>
+    </div>
+</div>
+<div>
+<Row>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <div className="circle-c" style={{textAlign:"center"}}><i class="far fa-chart-bar"></i></div>
+<p style={{marginTop:"10px", fontSize:"30px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <i class="fa fa-money" aria-hidden="true"></i>
+<p style={{marginTop:"20px", fontSize:"30px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <i class="fas fa-tools"></i>
+<p style={{marginTop:"20px", fontSize:"30px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+  </Row>
+
+<Row>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <i class="far fa-user-circle"></i>
+<p style={{marginTop:"20px", fontSize:"40px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <i class="fas fa-hand-holding-usd"></i>
+<p style={{marginTop:"20px", fontSize:"40px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+    <Col xs={12} md={4} style={{textAlign:"center", padding:"40px"}}>
+    <i class="far fa-gem"></i>
+<p style={{marginTop:"20px", fontSize:"40px"}}>MARKETING</p>
+<div style={{borderBottom:"1px solid", borderColor:"#eceff1"}}><h6 style={{fontWeight:"bold"}}>GAIN STRATEGIC INSIGHT WORTH PROMOTING</h6></div>
+<p style={{marginTop:"20px"}}>With our simple-to-use communication tools, you can establish strong, impactful, and efficient campaigns that are integrated through all your marketing channels.</p>
+<Button variant="outline-dark">Learn More <span><i class="fas fa-angle-double-right"></i></span></Button>
+    </Col>
+  </Row>
+
+
+</div>
+
 
         </div>
         </div>
