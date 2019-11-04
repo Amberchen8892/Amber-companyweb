@@ -268,3 +268,15 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+
+  #desktop {display: none;}
+  #mobile {display: block;}
+  
+  }
+  @media screen and (min-width:961px){
+    #desktop {display: block;}
+  #mobile {display: none;}
+    
+  }
